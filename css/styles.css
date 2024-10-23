@@ -88,6 +88,18 @@ main section h2 {
     flex-wrap: wrap; /* Allow wrapping if needed */
 }
 
+.planesyprecios {
+  display: flex;
+  justify-content: space-between; /* Optional: space out items evenly */
+}
+
+.planesypreciosUnit {
+  flex: 1; /* Each unit will take equal space */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin: 10px; /* Add some margin between the units */
+}
+
 
 .container {
     width: 90%;
@@ -152,9 +164,6 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
-
-$mq-breakpoints: (tn: 384, xxs: 480, xs: 576, sm: 768, md: 992,
-        lg: 1200, xl: 1400, xxl: 1920, xxxl: 3000, max: 100000);
 
 @function breakpoint-max($name, $breakpoints: $mq-breakpoints) {
   $max: map-get($breakpoints, $name);
@@ -270,6 +279,7 @@ $mq-breakpoints: (tn: 384, xxs: 480, xs: 576, sm: 768, md: 992,
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     width: 318px;
     height: 64px;
     font: 700 39.69px/1.61 Inter, Helvetica, Arial, serif;
@@ -307,7 +317,6 @@ $mq-breakpoints: (tn: 384, xxs: 480, xs: 576, sm: 768, md: 992,
     display: flex;
     justify-content: center;
     align-items: center;
-    font: 700 28.8px/1.6 Inter, Helvetica, Arial, serif;
     color: rgb(104 160 20);
     text-align: center;
   }
@@ -347,7 +356,7 @@ $mq-breakpoints: (tn: 384, xxs: 480, xs: 576, sm: 768, md: 992,
   }
 
   .title2 {
-    position: absolute;
+    
     inset: 265.5px 538px 249.5px 854px;
     display: flex;
     flex-direction: column;
@@ -379,4 +388,54 @@ $mq-breakpoints: (tn: 384, xxs: 480, xs: 576, sm: 768, md: 992,
     color: rgb(51 51 51);
   }
 }
+/*demostration*/
+#demo {
+  background-color: #f9f9f9;
+  padding: 60px 0;
+  text-align: center;
+}
 
+#demo h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.demo-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.demo-item {
+  text-align: center;
+}
+
+.demo-gallery img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.demo-item p {
+  margin-top: 10px; 
+  font-size: 1rem; 
+  color: #333; 
+}
+.item-box {
+  background-color: #fff; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  padding: 20px; 
+  max-width: 300px; 
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+}
+
+.demo-item p {
+  margin-top: 10px; 
+  font-size: 1rem; 
+  color: #333; 
+}
