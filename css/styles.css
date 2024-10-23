@@ -1,7 +1,8 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family:'M PLUS 1', Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: white;
 }
 
 .navbar {
@@ -10,6 +11,7 @@ body {
     align-items: center; /* Center items vertically */
     background-color: #68A014; /* Dark background */
     padding: 15px; /* Padding around navbar */
+    font-family: 'M PLUS 1';
 }
 
 .logo img {
@@ -35,4 +37,54 @@ body {
 .nav-links a:hover {
     background-color: #ddd; /* Light background on hover */
     color: black; /* Black text on hover */
+}
+body {
+    font-family: ;
+}
+
+main section {
+    padding: 20px; /* Add some padding */
+    margin: 20px 0; /* Add margin between sections */
+    background-color: #f9f9f9; /* Light background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+main section h2 {
+    color: #000000; /* Darker color for headings */
+    font-family: 'M PLUS 1';
+    text-align: center;
+
+}
+
+
+.m-plus-1-font {
+  font-family: "M PLUS 1", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.integrante {
+    flex: 1;
+    background-color: white; /* Background color of the box */
+    padding: 20px; /* Space inside the box */
+    margin: 20px; /* Space outside the box */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    text-align: center;
+}
+.integrante img{
+    max-width: 120;
+    max-height: 200px; /* Maintain aspect ratio */
+    border-radius: 5px; /* Optional: rounded corners for images */
+}
+.integrante p{
+    text-align: justify;
+    font-size: 14px;
+}
+.container-integrantes {
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Space elements evenly */
+    flex-wrap: wrap; /* Allow wrapping if needed */
 }
