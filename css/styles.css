@@ -149,5 +149,11 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
-
+c.section7 {
+    position: relative;
+    width: 1440px;
+    height: 323px;
+    min-height: 323px;
+    background-color: rgb(249 249 249);
+  }
 
