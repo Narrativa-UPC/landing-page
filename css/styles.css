@@ -1,3 +1,28 @@
+.main_title{
+  font-size: 2rem; 
+}
+.subtext_title{
+  text-align: center;
+}
+.page_welcome{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main_title h1{
+  margin: 0.5rem;
+}
+.page_welcome button{
+  background-color: #68A014;
+  font-size: medium;
+  font-family: 'M PLUS 1';
+  color: white;
+  border-radius:6px;
+  align-self: center;
+  padding: 7px 10px; /* Padding */
+  text-decoration: none; /* Remove underline */
+  border: none;
+}
 
 body {
     font-family:'M PLUS 1', Arial, sans-serif;
@@ -5,7 +30,6 @@ body {
     padding: 0;
     background-color: white;
 }
-
 .navbar {
     display: flex; /* Use flexbox for alignment */
     justify-content: space-between; /* Space between logo and links */
@@ -107,6 +131,7 @@ main section h2 {
     margin: 0 auto;
     padding: 20px;
     display: flex;
+    align-items: center;
 }
 
 /* Success Cases */
@@ -124,7 +149,7 @@ main section h2 {
 
 .case {
     background-color: #fff;
-    padding: 20px;
+    padding: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     max-width: 700px;
@@ -402,13 +427,18 @@ footer a:hover {
 
 .demo-gallery {
   display: flex;
+  flex:1;
   justify-content: center;
   gap: 20px;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 .demo-item {
+  flex:1;
   text-align: center;
+  display: flex;
+
 }
 
 .demo-gallery img {
@@ -416,6 +446,7 @@ footer a:hover {
   height: auto;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  align-content: center;
 }
 
 .demo-item p {
@@ -424,7 +455,7 @@ footer a:hover {
   color: #333; 
 }
 .item-box {
-  background-color: #fff; 
+  background-color: #ffffff; 
   border-radius: 10px; 
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
   padding: 20px; 
@@ -439,3 +470,28 @@ footer a:hover {
   font-size: 1rem; 
   color: #333; 
 }
+
+.section7 {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column; /* Ensure items are in a row */
+  align-items: center; /* Center children horizontally */
+
+}
+
+.section7_mini {
+  flex: 1;
+  display: flex; /* Add this to make its children flex items */
+  flex-direction: row; /* Stack children vertically */
+  align-items: center; /* Center children horizontally */
+}
+
+.section7 img{
+  max-height: 200px;
+  max-width: 300px;
+  margin: 0 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
