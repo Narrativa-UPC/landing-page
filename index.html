@@ -23,7 +23,7 @@
                 <a href="#demo">Demostración</a>
                 <a href="#precios">Precios</a>
                 <a href="#galeria">Galería</a>
-                <a href="#contact">FAQ</a>
+                <a href="#faq">FAQ</a>
                 <a href="#contact">Contacto</a>
             </div>
         </div>
@@ -156,6 +156,30 @@
                 </div>
             </div>
         </div>
+
+        <section id="faq">
+            <h2>Preguntas Frecuentes</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <h3>¿Qué es Narrativa?</h3>
+                    <p>Narrativa es una plataforma para compartir tus historias y conectar con tu audiencia.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>¿Cómo puedo empezar?</h3>
+                    <p>Regístrate hoy mismo para comenzar a crear y compartir contenido.</p>
+                </div>
+            </div>
+        </section>
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                const hamburger = document.querySelector(".hamburger");
+                const navLinks = document.querySelector(".nav-links");
+        
+                hamburger.addEventListener("click", () => {
+                    navLinks.classList.toggle("active");
+                });
+            });
+        </script>
 
     </section>
     <section id="galeria">

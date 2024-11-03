@@ -23,6 +23,39 @@
   text-decoration: none; /* Remove underline */
   border: none;
 }
+#faq {
+  background-color: #ffffff;
+  padding: 60px 0;
+  text-align: center;
+}
+
+#faq h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.faq-container{
+  display: flex;
+}
+
+.faq-item {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  max-width: 700px;
+  margin: 10px auto;
+  text-align: left;
+}
+
+.faq-item h3 {
+  color: #68A014;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+header {
+  overflow: auto;
+}
 
 body {
     font-family:'M PLUS 1', Arial, sans-serif;
@@ -37,6 +70,10 @@ body {
     background-color: #68A014; /* Dark background */
     padding: 15px; /* Padding around navbar */
     font-family: 'M PLUS 1';
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
 }
 
 .logo img {
@@ -122,6 +159,10 @@ main section h2 {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   text-align: center;
   margin: 10px; /* Add some margin between the units */
+}
+
+.planesypreciosUnit h2 {
+  color:rgb(104 160 20)
 }
 
 
