@@ -97,16 +97,9 @@ body {
 }
 
 .log-in{
-  background-color: #ddd; /* Light background on hover */
+  background-color: white; /* Light background on hover */
     color: black; /* Black text on hover */
 }
-
-.log-in a{
-  background-color: #ddd; /* Light background on hover */
-    color: black; /* Black text on hover */
-}
-
-
 
 .nav-links a:hover {
     background-color: #ddd; /* Light background on hover */
